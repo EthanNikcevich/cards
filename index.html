@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cards</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/mechanics.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="card"></div>
+
+<div class="cards">
+    <div><img id='ac' src='https://thecardsoflife.com/wp-content/images/cod-ac.jpg' style="position:absolute;top:0;left:0"/></div>
+    <div><img id="2c" src="https://thecardsoflife.com/wp-content/images/cod-2c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="3c" src="https://thecardsoflife.com/wp-content/images/cod-3c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="4c" src="https://thecardsoflife.com/wp-content/images/cod-4c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="5c" src="https://thecardsoflife.com/wp-content/images/cod-5c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="6c" src="https://thecardsoflife.com/wp-content/images/cod-6c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="7c" src="https://thecardsoflife.com/wp-content/images/cod-7c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="8c" src="https://thecardsoflife.com/wp-content/images/cod-8c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="9c" src="https://thecardsoflife.com/wp-content/images/cod-9c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="10c" src="https://thecardsoflife.com/wp-content/images/cod-10c.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="jc" src="https://thecardsoflife.com/wp-content/images/cod-jc.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="qc" src="https://thecardsoflife.com/wp-content/images/cod-qc.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="kc" src="https://thecardsoflife.com/wp-content/images/cod-kc.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="ah" src="https://thecardsoflife.com/wp-content/images/cod-ah.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="2h" src="https://thecardsoflife.com/wp-content/images/cod-2h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="3h" src="https://thecardsoflife.com/wp-content/images/cod-3h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="4h" src="https://thecardsoflife.com/wp-content/images/cod-4h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="5h" src="https://thecardsoflife.com/wp-content/images/cod-5h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="6h" src="https://thecardsoflife.com/wp-content/images/cod-6h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="7h" src="https://thecardsoflife.com/wp-content/images/cod-7h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="8h" src="https://thecardsoflife.com/wp-content/images/cod-8h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="9h" src="https://thecardsoflife.com/wp-content/images/cod-9h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="10h" src="https://thecardsoflife.com/wp-content/images/cod-10h.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="jh" src="https://thecardsoflife.com/wp-content/images/cod-jh.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="qh" src="https://thecardsoflife.com/wp-content/images/cod-qh.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="kh" src="https://thecardsoflife.com/wp-content/images/cod-kh.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="as" src="https://thecardsoflife.com/wp-content/images/cod-as.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="2s" src="https://thecardsoflife.com/wp-content/images/cod-2s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="3s" src="https://thecardsoflife.com/wp-content/images/cod-3s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="4s" src="https://thecardsoflife.com/wp-content/images/cod-4s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="5s" src="https://thecardsoflife.com/wp-content/images/cod-5s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="6s" src="https://thecardsoflife.com/wp-content/images/cod-6s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="7s" src="https://thecardsoflife.com/wp-content/images/cod-7s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="8s" src="https://thecardsoflife.com/wp-content/images/cod-8s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="9s" src="https://thecardsoflife.com/wp-content/images/cod-9s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="10s" src="https://thecardsoflife.com/wp-content/images/cod-10s.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="js" src="https://thecardsoflife.com/wp-content/images/cod-js.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="qs" src="https://thecardsoflife.com/wp-content/images/cod-qs.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="ks" src="https://thecardsoflife.com/wp-content/images/cod-ks.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="ad" src="https://thecardsoflife.com/wp-content/images/cod-ad.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="2d" src="https://thecardsoflife.com/wp-content/images/cod-2d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="3d" src="https://thecardsoflife.com/wp-content/images/cod-3d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="4d" src="https://thecardsoflife.com/wp-content/images/cod-4d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="5d" src="https://thecardsoflife.com/wp-content/images/cod-5d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="6d" src="https://thecardsoflife.com/wp-content/images/cod-6d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="7d" src="https://thecardsoflife.com/wp-content/images/cod-7d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="8d" src="https://thecardsoflife.com/wp-content/images/cod-8d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="9d" src="https://thecardsoflife.com/wp-content/images/cod-9d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="10d" src="https://thecardsoflife.com/wp-content/images/cod-10d.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="jd" src="https://thecardsoflife.com/wp-content/images/cod-jd.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="qd" src="https://thecardsoflife.com/wp-content/images/cod-qd.jpg" style="position:absolute;top:0;left:0"/></div>
+    <div><img id="kd" src="https://thecardsoflife.com/wp-content/images/cod-kd.jpg" style="position:absolute;top:0;left:0"/></div>
+</div>
+<input type="button" value="Shuffle" id="btn" size="30" onclick="shuffle(deck)" style="position:absolute;top:90%">
+<input type="button" value="Solitaire" id="btn2" size="30" onclick="solitaire()" style="position:absolute;top:80%">
+</body>
+</html>
